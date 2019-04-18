@@ -1,19 +1,15 @@
 header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
     background-image: linear-gradient(to right bottom,
     rgba($color-secondary, .8), rgba($color-primary, .8));
 
-    .logo a {
-        width: 12rem;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-flow: row wrap;
+    .logo-box {        
+        text-align: center;
         padding-top: 0.5rem;
         margin: 0 auto;
+
+        .logo {
+            width: 10rem;
+        }
     }
 
     .divider {
