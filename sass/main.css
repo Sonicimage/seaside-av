@@ -286,13 +286,32 @@ p, .label {
   color: #333;
 }
 
-.cards {
+.services {
   width: 90%;
   margin: 0 auto;
 }
 
+@media only screen and (min-width: 950px) {
+  .services {
+    width: 80%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .services {
+    width: 70%;
+    margin-bottom: 3rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .services {
+    width: 60%;
+  }
+}
+
 @media only screen and (min-width: 650px) {
-  .cards {
+  .services {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -304,26 +323,7 @@ p, .label {
   }
 }
 
-@media only screen and (min-width: 950px) {
-  .cards {
-    width: 80%;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  .cards {
-    width: 70%;
-    margin-bottom: 3rem;
-  }
-}
-
-@media only screen and (min-width: 1600px) {
-  .cards {
-    width: 60%;
-  }
-}
-
-.cards .card {
+.services .card {
   width: 100%;
   margin-bottom: 5rem;
   -webkit-box-shadow: 3px 3px 8px #b3b3b3;
@@ -331,17 +331,17 @@ p, .label {
 }
 
 @media only screen and (min-width: 650px) {
-  .cards .card {
+  .services .card {
     width: 45%;
   }
 }
 
-.cards .card figure img {
+.services .card figure img {
   width: 100%;
   height: auto;
 }
 
-.cards .card .card-content {
+.services .card .card-content {
   padding: 1.4rem;
 }
 

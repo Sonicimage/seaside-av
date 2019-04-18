@@ -1,13 +1,6 @@
-.cards {
+.services {
     width: 90%;
     margin: 0 auto;
-
-    @media only screen and (min-width: 650px) {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
-        margin-bottom: 2rem;
-    }
 
     @media only screen and (min-width: 950px) {
         width: 80%;
@@ -20,6 +13,13 @@
 
     @media only screen and (min-width: 1600px) {
         width: 60%;
+    }
+
+    @media only screen and (min-width: 650px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 2rem;
     }
 
     .card {
@@ -41,6 +41,13 @@
         }
     } 
 }
+
+    
+
+    
+
+
+
 
 
 
