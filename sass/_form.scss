@@ -1,0 +1,93 @@
+.connect {
+    width: 90%;
+    margin: 0 auto;
+    padding: 1rem 0;
+
+    @media only screen and (min-width: 650px) {
+        width: 80%;
+        margin-bottom: 2rem;
+    }
+
+    @media only screen and (min-width: 768px) {
+        width: 70%;
+    }
+
+    @media only screen and (min-width: 1000px) {
+        width: 60%;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        width: 50%;
+        margin-bottom: 3rem;
+    }
+        
+    .wrapper {
+        width: 100%;       
+        margin: 0 auto;
+        padding: 2rem 0 3rem;
+
+        .form-content {
+            background: rgba(0,0,0,.1);
+            padding: 2rem 0;
+
+            .items {
+                width: 80%;
+                padding: 0.6rem 0;
+                margin: 0 auto;
+                
+                @media only screen and (min-width: 850px) {
+                    display: flex;
+                }
+
+                .label {                   
+                    display: block;
+                    padding-bottom: 0.7rem;
+
+                    @media only screen and (min-width: 850px) {
+                        width: 20%;
+                    }
+                }                
+
+                .input,
+                .text-area {
+                    background: transparent;
+                    border: 0;
+                    border: 1px solid $color-accent;
+                    padding: 0.8rem 1rem;
+                    width: 100%;
+                    font-size: 1.5rem;
+                    color: $color-grey-dark;
+                }
+
+                #message {
+                    height: 10rem;
+                }
+            }
+        }
+
+        .btn {
+            background: $color-primary;
+            font-size: 2rem;
+            padding: 1rem 0;
+            margin: 1rem auto 0;
+            text-align: center;
+            width: 100%;            
+            text-transform: uppercase;
+            font-weight: 600;
+            cursor: pointer;
+            letter-spacing: 2px;
+
+            @media only screen and (min-width: 550px) {
+                width: 60%;
+            }
+
+            @media only screen and (min-width: 850px) {
+                width: 40%;
+            }
+        }
+
+        .btn:hover {
+            background-color: $color-secondary;
+        }
+    }
+}

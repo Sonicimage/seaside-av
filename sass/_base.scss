@@ -1,0 +1,90 @@
+$color-primary: #f6995b;
+$color-secondary: #e96b79;
+$color-accent: #2e3b85;
+
+$color-olive: #8fac14;
+$color-green: #375c26;
+
+$color-grey-light: #f9f7f6;
+$color-grey-dark: #333;
+
+$font-primary: 'Roboto', sans-serif;
+$font-display: 'PT Serif', serif;
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+    outline: none;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+body {
+    font-family: $font-primary;
+    color: $color-grey-dark;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+ul {
+    list-style: none;
+
+    a {
+        text-decoration: none;
+        color: $color-grey-dark;
+    }
+}
+
+.content-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.hero-area {
+    background-image: linear-gradient(to right bottom,
+    rgba($color-green, .8), rgba($color-olive, .6));
+}
+
+.social-proof {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 3rem 0;
+    width: 90%;
+    margin: 0 auto;
+
+    @media only screen and (min-width: 650px) {
+        padding: 4rem 0;
+    }
+
+    @media only screen and (min-width: 950px) {
+        padding: 4.5rem 0;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        width: 80%;
+        padding: 5rem 0;
+    }
+
+    @media only screen and (min-width: 1600px) {
+        width: 70%;
+    }
+
+    figure {
+        width: 6rem;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        flex: 1 0 12%;
+
+        img {
+            width: 100%;
+        }
+    }
+}

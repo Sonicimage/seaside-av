@@ -1,0 +1,47 @@
+.cards {
+    width: 90%;
+    margin: 0 auto;
+
+    @media only screen and (min-width: 650px) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-bottom: 2rem;
+    }
+
+    @media only screen and (min-width: 950px) {
+        width: 80%;
+    }
+
+    @media only screen and (min-width: 1200px) {
+        width: 70%;
+        margin-bottom: 3rem;
+    }
+
+    @media only screen and (min-width: 1600px) {
+        width: 60%;
+    }
+
+    .card {
+        width: 100%;
+        margin-bottom: 5rem;
+        box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
+
+        @media only screen and (min-width: 650px) {
+            width: 45%;
+        }
+
+        figure img {
+            width: 100%;
+            height: auto;
+        }
+
+        .card-content {
+            padding: 1.4rem;
+        }
+    } 
+}
+
+
+
+
