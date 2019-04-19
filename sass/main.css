@@ -23,6 +23,12 @@ ul {
   list-style: none;
 }
 
+@media only screen and (min-width: 1200px) {
+  ul {
+    font-size: 1.4rem;
+  }
+}
+
 ul a {
   text-decoration: none;
   color: #333;
@@ -114,6 +120,12 @@ header .logo-box {
 
 header .logo-box .logo {
   width: 10rem;
+}
+
+@media only screen and (min-width: 1200px) {
+  header .logo-box .logo {
+    width: 12rem;
+  }
 }
 
 header .divider {
@@ -247,9 +259,21 @@ h2 {
   margin-bottom: 2rem;
 }
 
+@media only screen and (min-width: 1200px) {
+  h2 {
+    font-size: 3.5rem;
+  }
+}
+
 h2 span {
   font-size: 2rem;
   color: #6d75a3;
+}
+
+@media only screen and (min-width: 1200px) {
+  h2 span {
+    font-size: 2.5rem;
+  }
 }
 
 h3 {
@@ -259,9 +283,25 @@ h3 {
   color: #2e3b85;
 }
 
+@media only screen and (min-width: 1200px) {
+  h3 {
+    font-size: 2.7rem;
+  }
+}
+
 p, .label {
   font-size: 1.5rem;
   color: #333;
+}
+
+@media only screen and (min-width: 1200px) {
+  p, .label {
+    font-size: 1.7rem;
+  }
+}
+
+p {
+  padding-bottom: 1rem;
 }
 
 .services {
@@ -360,6 +400,8 @@ p, .label {
   height: 0;
   overflow: hidden;
   margin: 5rem 0;
+  -webkit-box-shadow: 3px 3px 8px #b3b3b3;
+          box-shadow: 3px 3px 8px #b3b3b3;
 }
 
 .samples .container iframe {
@@ -408,9 +450,15 @@ p, .label {
   padding: 2rem 0 3rem;
 }
 
+.connect .wrapper .contact {
+  padding-bottom: 2rem;
+}
+
 .connect .wrapper .form-content {
   background: rgba(0, 0, 0, 0.1);
   padding: 2rem 0;
+  -webkit-box-shadow: 3px 3px 8px #b3b3b3;
+          box-shadow: 3px 3px 8px #b3b3b3;
 }
 
 .connect .wrapper .form-content .items {

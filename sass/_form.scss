@@ -26,9 +26,14 @@
         margin: 0 auto;
         padding: 2rem 0 3rem;
 
+        .contact {
+            padding-bottom: 2rem;
+        }
+
         .form-content {
             background: rgba(0,0,0,.1);
             padding: 2rem 0;
+            box-shadow: 3px 3px 8px hsl(0, 0%, 70%);
 
             .items {
                 width: 80%;
